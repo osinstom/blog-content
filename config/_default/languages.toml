@@ -11,7 +11,7 @@
 [pl]
   languageCode = "pl"
   contentDir = "content/pl"
-  title = "Tomasz Osiński - blog"
+  title = "Tomasz Osiński - blog techniczny"
   [pl.params]
     description = "S"
   #[[pl.menu.main]]
