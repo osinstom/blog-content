@@ -17,7 +17,7 @@ organizations:
 - name: Orange Labs
   url: "https://orangefab.pl/en/orange-rd-center/"
 - name: Warsaw University of Technology
-  url: ""
+  url: "https://www.pw.edu.pl/engpw"
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
