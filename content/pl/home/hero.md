@@ -39,20 +39,20 @@ hero_media = ""
 #   Remove a link/note by deleting a cta/note block.
 [cta]
   url = "mailto:osinstom@gmail.com"
-  label = "Contact me"
+  label = "Napisz do mnie"
   icon_pack = "fas"
   #icon = "download"
 
 [cta_alt]
   url = "https://osinstom.github.io/#contact"
-  label = "Follow me"
+  label = "Obserwuj mnie"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
   label = ''
 +++
 
-**Do you want to use my skillset in your cool project?**
+**Chciałbyś wykorzystać moje umiejętności w Twoim projekcie?**
 
-**Do you want to work with me on some idea?**
+**Masz ciekawy pomysł i chcesz ze mną współpracować?**
 
