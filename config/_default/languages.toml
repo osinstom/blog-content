@@ -15,6 +15,6 @@
   [pl.params]
     description = "S"
   [[pl.menu.main]]
-    name = "Wo"
+    name = "O mnie"
     url = "#about"
     weight = 1
