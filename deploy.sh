@@ -2,6 +2,8 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+git submodule add -f  -b master https://github.com/osinstom/osinstom.github.io.git public
+
 hugo
 
 cd public
