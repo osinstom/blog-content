@@ -43,8 +43,7 @@ hero_media = ""
   icon_pack = "fas"
   #icon = "download"
 
-[cta]
-#[cta_alt]
+[cta_alt]
   url = "https://osinstom.github.io/#contact"
   label = "Follow me"
 
