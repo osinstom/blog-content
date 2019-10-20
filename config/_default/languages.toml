@@ -14,7 +14,7 @@
   title = "Tomasz Osiński - blog"
   [pl.params]
     description = "S"
-  [[pl.menu.main]]
-    name = "O mnie"
-    url = "#about"
-    weight = 1
+  #[[pl.menu.main]]
+  #  name = "O mnie"
+  #  url = "#about"
+  #  weight = 1
