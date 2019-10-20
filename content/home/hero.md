@@ -38,13 +38,14 @@ hero_media = ""
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "https://sourcethemes.com/academic/docs/install/"
+  url = "mailto:osinstom@gmail.com"
   label = "Contact me"
   icon_pack = "fas"
   #icon = "download"
-  
-[cta_alt]
-  url = "https://sourcethemes.com/academic/"
+
+[cta]
+#[cta_alt]
+  url = "https://osinstom.github.io/#contact"
   label = "Follow me"
 
 # Note. An optional note to show underneath the links.
