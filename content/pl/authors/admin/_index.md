@@ -10,34 +10,35 @@ authors:
 superuser: true
 
 # Role/position
-role: R&D Software Engineer
+role: Programista R&D
 
 # Organizations/Affiliations
 organizations:
 - name: Orange Labs
   url: "https://orangefab.pl/en/orange-rd-center/"
-- name: Warsaw University of Technology
-  url: "https://www.pw.edu.pl/engpw"
+- name: Politechnika Warszawska
+  url: "https://www.pw.edu.pl/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: 
 
 interests:
-- Programmable SDN data plane
-- NFV performance
-- Network algorithmics
-- Network programming
+- Programowalna warstwa przekazu danych (język P4) w sieciach SDN
+- Wydajność infrastruktury NFV i wirtualnych funkcji sieciowych
+- Sieć 5G i inne sieci mobilne
+- Projektowanie i optymalizacja wydajności funkcji sieciowych
+- Programowanie sieciowe
 
 education:
   courses:
-  - course: PhD in IT/Telecommunications
-    institution: Warsaw University of Technology
-    year: 2018 - present
-  - course: MSc in Telecommunications
-    institution: Warsaw University of Technology
+  - course: Studia doktoranckie (Informatyka techniczna i telekomunikacja)
+    institution: Politechnika Warszawska
+    year: 2018 - obecnie
+  - course: Studia magisterskie (Telekomunikacja)
+    institution: Politechnika Warszawska
     year: 2016
-  - course: BSc in Telecommunications
-    institution: Warsaw University of Technology
+  - course: Studia inżynierskie (Telekomunikacja)
+    institution: Politechnika Warszawska
     year: 2012
 
 # Social/Academic Networking
@@ -76,8 +77,6 @@ user_groups:
 - Visitors
 ---
 
-My name is **Tomek Osiński** and I'm the author of this blog. The blog is full of networking topics, which I find interesting and worth to share with community. Mainly, I am going to publish tech tutorials & reports. However, some of my personal opinions or visions may also appear on this blog. Note that the posts are on my own and don't represent the opinions of my employer.
+Witam na moim blogu! 
 
-I'm a R&D Software Engineer in the area of Software-Defined Networking & Network Functions Virtualization and also an Open-Source enthusiast. My R&D activities are related to network softwarization including network automation & orchestration, Software-Defined Infrastructure (i.a. SDN), Network Function Virtualization (NFV), Network Slicing, mobile networks and Telco Cloud technologies. Currently, my research is focused on improving the performance of the NFV workload, therefore I deal with data plane programmability and packet processing techniques for SDN and NFV systems. I'm involved in the project related to the [P4](http://www.p4.org) technology and [OpenStack](http://www.openstack.org). So far, I have been contributing to various open-source projects including [Floodlight](http://www.projectfloodlight.org/floodlight/), [ONOS](https://onosproject.org/) and [ONAP](http://www.onap.org).
-
-Professionally, I work as a R&D Expert at [Orange Labs Poland](https://orangefab.pl/en/orange-rd-center/). Moreover, I am a PhD student at Warsaw University of Technology and the member of [SDN and Network Virtualization Lab](http://snvlab.tele.pw.edu.pl).
+Nazywam się Tomasz Osiński i jestem autorem tego bloga. 
