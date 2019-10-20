@@ -1,1 +1,24 @@
+[[main]]
+  name = "O mnie"
+  url = "#about"
+  weight = 10
 
+[[main]]
+  name = "Blog"
+  url = "#posts"
+  weight = 20
+
+[[main]]
+  name = "Projekty"
+  url = "#projects"
+  weight = 30
+
+[[main]]
+  name = "Publikacje"
+  url = "#featured"
+  weight = 40
+
+[[main]]
+  name = "Kontakt"
+  url = "#contact"
+  weight = 60
