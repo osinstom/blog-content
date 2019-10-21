@@ -41,7 +41,7 @@ date_format = "Jan 2006"
   location = "Warsaw"
   date_start = "2016-05-01"
   date_end = "2016-12-31"
-  description = """Implementation of VoWiFi/VoLTE services for Samsung phones."""
+  description = """Implementation of VoWiFi/VoLTE services for Samsung phones.
   Responsibilities include:
   
   * maintenance, development and deployment of VoLTE/VoWiFi services in Android OS for European operators
@@ -49,6 +49,7 @@ date_format = "Jan 2006"
   * GSMA, 3GPP and RFC specifications analysis
   * leading internal technical trainings 
   * Technologies: Java, C++, Protobuf, Android, LTE, SIP, IMS, IKE/IPSec
+  """
   
 [[experience]]
   title = "Software Developer"
@@ -57,11 +58,11 @@ date_format = "Jan 2006"
   location = "Warsaw"
   date_start = "2015-09-01"
   date_end = "2016-03-31"
-  description = """"""
+  description = """
   Responsibilities include:
   
   * Maintenance & development of VoIP/IMS provisioning systems
   * Technologies: JSF, Spring, PrimeFaces, SOAP, REST, MySQL, Tomcat 8
- 
+  """
 
 +++
