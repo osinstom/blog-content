@@ -25,7 +25,7 @@ date_format = "Jan 2006"
   date_start = "2017-01-01"
   date_end = ""
   description = """
-  Responsibilities include:
+  Zakres obowiązków:
   
   * Projektowanie, implementacja, evaluacja i publikowanie nowych rozwiązań mających na celu zwiększenie wydajności i/lub możliwości infrastruktury NFV dedykowanej dla sieci 5G. 
   * Prace badawczo-rozwojowe nad zastosowaniem programowalnej warstwy przekazu danych (technologia P4) w systemach SDN/NFV w celu zwiększenia wydajności wirtualnych funkcji sieciowych.
@@ -41,26 +41,26 @@ date_format = "Jan 2006"
   location = "Warszawa"
   date_start = "2016-05-01"
   date_end = "2016-12-31"
-  description = """Implementacja i utrzymanie usług VoWiFi/VoLTE dla telefonów Samsung."""
-  Responsibilities include:
+  description = """Implementacja i utrzymanie usług VoWiFi/VoLTE dla telefonów Samsung.
+  Zakres obowiązków:
   
   * utrzymanie, rozwój i wdrażanie usług VoLTE/VoWiFi na systemach Android dla europejskich operatorów. 
   * analiza sieciowa z wykorzystaniem programów do analizy pakietów (Wireshark).
   * Analiza specyfikacji GSMA, 3GPP i RFC.
   * Prowadzenie wewnętrznych szkoleń technicznych. 
   * Technlogie: Java, C++, Protobuf, Android, LTE, SIP, IMS, IKE/IPSec
-  
+  """
 [[experience]]
-  title = "Programista"
+  title = "Programista Java"
   company = "mLife"
   company_url = ""
   location = "Warszawa"
   date_start = "2015-09-01"
   date_end = "2016-03-31"
-  description = """"""
-  Responsibilities include:
+  description = """
+  Zakres obowiązków:
   
   * Utrzymanie i rozwój systemów zarządania VoIP/IMS
   * Technologie: JSF, Spring, PrimeFaces, SOAP, REST, MySQL, Tomcat 8
-
+  """
 +++
