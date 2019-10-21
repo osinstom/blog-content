@@ -20,7 +20,7 @@ organizations:
   url: "https://www.pw.edu.pl/engpw"
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: R&D Software Engineer, Open-Source enthusiast | Telecommunications, Computer networks, Network programming | I write about network softwarization in general i.a. SDN, NFV, Telco Cloud, 5G.
 
 interests:
 - Programmable SDN data plane
