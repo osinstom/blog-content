@@ -3,6 +3,7 @@ published: false
 title: Initial view on VoWiFi in the 5G network
 date: '2018-12-18'
 author: Tomasz Osiński
+draft: false
 tags:
   - 3GPP
   - ePDG
