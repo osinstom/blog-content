@@ -20,7 +20,7 @@ organizations:
   url: "https://www.pw.edu.pl/"
 
 # Short bio (displayed in user profile at end of posts)
-bio: 
+bio: Programista R&D, entuzjasta oprogramowania "open-source", pasjonat. Zajmuję się "softwaryzacją" sieci telekomunikacyjnych, w tym m.in. sieciami progromowalnymi SDN, systemami NFV, chmurami telekomunikacyjnymi i siecią 5G. 
 
 interests:
 - Programowalna warstwa przekazu danych (język P4) w sieciach SDN
