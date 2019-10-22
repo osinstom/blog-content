@@ -1,6 +1,6 @@
 prose:
   rooturl: 'content'
-  media: 'static/img'
+  media: 'img/'
   metadata:
     content/en/post:
       - name: "draft"
