@@ -24,7 +24,7 @@ You can find the user guide and the source code of this demo [on my GitHub](http
 
 The test network (presented below) is composed of three routers and two end hosts - each associated to the different network. Hosts are attached to the devices (R1 and R3), which play the role of the edge MPLS router. The R2 router is the core MPLS router - it forwards packets based on the MPLS label. Packets from hosts are encapsulated to MPLS (and decapsulated from MPLS) by the edge routers. 
 
-![The MPLS network setup]({{site.baseurl}}/static/img/mpls-network.png)
+![The MPLS network setup]({{site.baseurl}}/img/mpls-network.png)
 
 
 ### The design of the MPLS router in P4
