@@ -3,6 +3,11 @@ prose:
   media: 'static/img'
   metadata:
     content/en/post:
+      - name: "draft"
+        field:
+          element: "checkbox"
+          label: "Publish?"
+          value: "true"
       - name: "title"
         field:
           element: "text"
@@ -18,11 +23,6 @@ prose:
           element: "textarea"
           label: "Author"
           placeholder: "Must be in format FirstnameLastname - e.g. JohnGriffin"
-      - name: "slug"
-        field:
-          element: "text"
-          label: "Slug"
-          placeholder: "The last part of the URL."
       - name: "date"
         field:
           element: "text"
@@ -38,8 +38,10 @@ prose:
           element: "multiselect"
           label: "Add Tags"
           options:
-            - name: "Blog"
-              value: "blog"
+            - name: "SDN"
+              value: "SDN"
+            - name: "NFV"
+              value: "NFV"
           alterable: True
     static:
       - name: "url"
