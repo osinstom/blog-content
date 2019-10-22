@@ -1,31 +1,17 @@
 ---
-# Documentation: https://sourcethemes.com/academic/docs/managing-content/
-
-title: "Explanation of IPSec basics"
-subtitle: ""
-summary: ""
+title: Explanation of IPSec basics
 authors: []
-tags: []
 categories: []
-date: 2019-10-20T21:07:00+02:00
-lastmod: 2019-10-20T21:07:00+02:00
+date: '2017-11-21'
+lastmod: {}
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
 image:
-  caption: ""
-  focal_point: ""
+  caption: ''
+  focal_point: ''
   preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
 projects: []
+published: true
 ---
 
 In my first post on this blog I encourage you to watch my YouTube tutorial about IPSec, which was made by me some time ago. The tutorial is a practical guide based on Strongswan, which is an open-source implementation of IPSec stack.
