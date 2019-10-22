@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Network prototyping made easy with P4 and Python!
 author: Tomasz Osiński
 tags:
@@ -21,7 +21,8 @@ I assume you know already what the Python language is, but what is P4? P4 stands
 
 The main component of the P4 ecosystem is the P4 language. It is a high-level Domain-Specific Language (DSL) dedicated for programming of network devices. It allows to specify the format of packets (protocol’s headers) to be recognized by network devices and actions to be performed on incoming packets (forwarding, headers modification, adding protocol header, etc). Nevertheless, the P4 language is not consumed directly by the network device, but it must be compiled to the source code for particular platform. These platforms are hardware-based (e.g. Barefoot Tofino, [FPGA](https://p4.org/p4/p4-netfpga-a-low-cost-solution-for-testing-p4-programs-in-hardware.html)) or software-based (e.g. [BMv2](https://github.com/p4lang/behavioral-model), [eBPF/XDP](https://github.com/vmware/p4c-xdp) or [PISCES](http://pisces.cs.princeton.edu/)). The goal of P4 is to become the same what CUDA language became for graphics cards programming. The concept of the P4 language has been presented below.
 
-![p4-program-structure.jpg]({{site.baseurl}}/assets/images/p4-program-structure.jpg)
+![P4 program structure]({{site.baseurl}}/static/img/p4-program-structure.jpg)
+
 
 The P4 program is composed of three main sections: Protocols defintion (data declaration), Parser Logic (Parser & Deparser) and a number of control blocks containing Match-Action tables. The first section defines the protocols headers that the network device will be able to recognize. For instance, defining IPv4 header is as simple as:
 
