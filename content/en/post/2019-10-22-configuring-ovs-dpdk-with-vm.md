@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Configuring OVS-DPDK with VM
 date: '2019-03-23'
 author: Tomasz Osiński
@@ -13,7 +13,7 @@ tags:
 ---
 Recently, I work on a performance comparison between virtualization technologies. In order to made an experiment I had had to setup a test environment based on [OVS-DPDK](https://software.intel.com/en-us/articles/open-vswitch-with-dpdk-overview) and [KVM-based Virtual Machine](https://www.redhat.com/en/topics/virtualization/what-is-KVM). This user guide shows how to install and configure the test scenario with OVS-DPDK and libvirt. The test scenario is presented below. According to OVS flow rules configuration we can test PHY-OVS-PHY scenario (green line) or PHY-VM-PHY scenario (red line). 
 
-![The OVS-DPDK + VM scenario]({{site.baseurl}}/_posts/test-scenario-ovs-dpdk.png)
+![The OVS-DPDK + VM scenario]({{site.baseurl}}/static/img/test-scenario-ovs-dpdk.png)
 
 
 ### Prerequisites
