@@ -42,6 +42,8 @@ prose:
               value: "SDN"
             - name: "NFV"
               value: "NFV"
+            - name: "P4"
+              value: "P4"
           alterable: True
     static:
       - name: "url"
