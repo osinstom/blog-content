@@ -1,5 +1,5 @@
 prose:
-  rooturl: 'content'
+  rooturl: ''
   media: 'img/'
   metadata:
     content/en/post:
