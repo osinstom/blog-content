@@ -25,8 +25,8 @@ subtitle = ""
   # color = "navy"
   
   # Background gradient.
-  gradient_start = "DarkGreen"
-  gradient_end = "ForestGreen"
+  # gradient_start = "DarkGreen"
+  # gradient_end = "ForestGreen"
   
   # Background image.
   # image = "image.jpg"  # Name of image in `static/img/`.
@@ -36,7 +36,7 @@ subtitle = ""
   # image_parallax = true  # Use a fun parallax-like fixed background effect? true/false
   
   # Text color (true=light or false=dark).
-  text_color_light = true
+  # text_color_light = true
 
 [design.spacing]
   # Customize the section spacing. Order is top, right, bottom, left.
@@ -50,5 +50,9 @@ subtitle = ""
  css_class = ""
 +++
 
-* [Artykuł o technice P4](https://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000004.pdf)
+**Programowalna warstwa przekazu danych SDN**
+
+[Artykuł o P4](https://www.sigcomm.org/sites/default/files/ccr/papers/2014/July/0000000-0000004.pdf)
+
+[Zbiór materiałów o programowalnej warstwie przekazu danych](https://rg0now.github.io/prog_dataplane_reading_list/README.html)
 
