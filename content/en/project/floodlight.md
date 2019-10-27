@@ -1,6 +1,6 @@
 ---
-title: Contribution to 5G!Pagoda - the EU-Japan H2020 project 
-summary: ""
+title: Implementation of multipath routing for Floodlight (SDN controller)
+summary: "I have implemented a multiputh routing based on Depth-First Search algorithm for Floodlight - an open-source SDN Controller."
 tags:
 - SDN
 date: "2015-02-14"
