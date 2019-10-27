@@ -1,6 +1,6 @@
 ---
-title: Contribution to ONAP
-summary: "I have contributed to the Open Network Automation Platform (ONAP). I am involved in the Change Management project. The objective is to provide lifecycle management APIs to support seamless software upgrade of Virtual Network Functions. For Casablanca release I implemented a northbound APIs for Application Controller (APP-C) to support distribute traffic mechanism."
+title: ONAP
+summary: "Contribution to Change Management project"
 tags:
 - SDN
 date: "2019-01-31"
@@ -25,3 +25,4 @@ url_video: ""
 slides: ""
 ---
 
+I have contributed to the Open Network Automation Platform (ONAP). I am involved in the Change Management project. The objective is to provide lifecycle management APIs to support seamless software upgrade of Virtual Network Functions. For Casablanca release I implemented a northbound APIs for Application Controller (APP-C) to support distribute traffic mechanism.
