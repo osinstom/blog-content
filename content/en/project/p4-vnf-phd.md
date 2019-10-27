@@ -1,6 +1,6 @@
 ---
 title: Research on the VNF offloading using P4 technology
-summary: "Currently, as my PhD topic, I do a research on P4 language and related technologies (e.g. eBPF/XDP, VPP, OVS, SmartNiC, Tofino) in order to explore a way to implement a VNF offloading framework for OpenStack."
+summary: ""
 tags:
 - SDN
 date: "2019-09-14"
@@ -25,3 +25,4 @@ url_video: ""
 slides: ""
 ---
 
+Currently, as my PhD topic, I do a research on P4 language and related technologies (e.g. eBPF/XDP, VPP, OVS, SmartNiC, Tofino) in order to explore a way to implement a VNF offloading framework for OpenStack.
