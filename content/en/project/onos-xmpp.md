@@ -1,6 +1,6 @@
 ---
-title: XMPP as Southbound Interface for ONOS (SDN controller)
-summary: ""
+title: ONOS (SDN controller)
+summary: "Implementation of XMPP as Southbound Interface"
 tags:
 - SDN
 date: "2018-03-01"
