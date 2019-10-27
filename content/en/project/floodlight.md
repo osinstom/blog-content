@@ -1,12 +1,12 @@
 ---
-title: Implementation of multipath routing for Floodlight (SDN controller) 
+title: Contribution to 5G!Pagoda - the EU-Japan H2020 project 
 summary: ""
 tags:
 - SDN
-date: "2015-02-14"
+date: "2017-12-30"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://floodlight.atlassian.net/wiki/spaces/floodlightcontroller/pages/24805405/We+Want+You..."
+external_link: "https://5g-pagoda.aalto.fi/"
 
 image:
   caption: Photo by rawpixel on Unsplash
