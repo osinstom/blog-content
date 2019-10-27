@@ -1,6 +1,6 @@
 ---
-title: Contribution to 5G!Pagoda - the EU-Japan H2020 project 
-summary: "I have contributed to the 5G!Pagoda EU-Japan project realized under H2020 programme. 5G!Pagoda is a research project related to network slicing technology for 5G networks. I was involved in designing a network slicing architecture and multi-domain orchestration. Moreover, I had been developing prototypes (PoCs) of designed solutions based on OpenStack, Docker, Kubernetes, OpenBaton, Ansible and Juju."
+title: 5G!Pagoda
+summary: "Contribution to the EU-Japan H2020 project"
 tags:
 - SDN
 date: "2017-12-30"
@@ -25,3 +25,4 @@ url_video: ""
 slides: ""
 ---
 
+I have contributed to the 5G!Pagoda EU-Japan project realized under H2020 programme. 5G!Pagoda is a research project related to network slicing technology for 5G networks. I was involved in designing a network slicing architecture and multi-domain orchestration. Moreover, I had been developing prototypes (PoCs) of designed solutions based on OpenStack, Docker, Kubernetes, OpenBaton, Ansible and Juju.
