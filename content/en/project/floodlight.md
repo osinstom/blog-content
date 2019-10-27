@@ -1,6 +1,6 @@
 ---
-title: Implementation of multipath routing for Floodlight (SDN controller)
-summary: "I have implemented a multiputh routing based on Depth-First Search algorithm for Floodlight - an open-source SDN Controller."
+title: Floodlight
+summary: "Implementation of multipath routing based on Depth-First Search algorithm."
 tags:
 - SDN
 date: "2015-02-14"
