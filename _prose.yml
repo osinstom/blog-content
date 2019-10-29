@@ -3,7 +3,7 @@ prose:
   baseurl: "https://osinstom.github.io/"
   media: 'img/'
   metadata:
-    content/en/post:
+    content/pl/post:
       - name: "draft"
         field:
           element: "checkbox"
@@ -50,8 +50,8 @@ prose:
       - name: "draft"
         field:
           element: "checkbox"
-          label: "Publish?"
-          value: "false"
+          label: "Draft?"
+          value: "true"
       - name: "title"
         field:
           element: "text"
