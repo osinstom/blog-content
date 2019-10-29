@@ -1,5 +1,5 @@
 ---
-title: ONOS (SDN controller)
+title: "ONOS (SDN controller)"
 summary: "Implementation of XMPP as Southbound Interface"
 tags:
 - SDN
