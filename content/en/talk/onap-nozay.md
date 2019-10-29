@@ -1,9 +1,9 @@
 ---
-title: Evaluation of XMPP as a Southbound Interface for ONOS
-event: 2nd ONOS Security & performance analysis brigade workshop
+title: ONAP Change Management Dublin Extensions
+event: ONAP DDF + OPNFV Plugfest Jan '19
 event_url: https://wiki.onosproject.org/display/ONOS/XMPP+as+SBI
 
-location: ONAP DDF + OPNFV Plugfest Jan '19
+location: Nozay, Paris
 address:
   # street: 450 Serra Mall
   city: Paris, Nozay
