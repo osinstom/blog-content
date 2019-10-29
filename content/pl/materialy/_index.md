@@ -1,15 +1,13 @@
 ---
 title: Materiały
-
-reading_time: false  # Show estimated reading time?
-share: true  # Show social sharing links?
-profile: false  # Show author profile?
-comments: false  # Show comments?
-
-# Optional header image (relative to `static/img/` folder).
+reading_time: false
+share: true
+profile: false
+comments: false
 header:
-  caption: ""
-  image: ""
+  caption: ''
+  image: ''
+published: true
 ---
 
 ## Programowalna warstwa przekazu danych SDN
