@@ -24,3 +24,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+Implementation of XMPP as Southbound Interface
