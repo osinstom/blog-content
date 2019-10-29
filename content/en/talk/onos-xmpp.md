@@ -3,7 +3,7 @@ title: Evaluation of XMPP as a Southbound Interface for ONOS
 event: 2nd ONOS Security & performance analysis brigade workshop
 event_url: https://wiki.onosproject.org/display/ONOS/XMPP+as+SBI
 
-location: LIP6
+location: LIP6, Paris, France
 address:
   # street: 450 Serra Mall
   city: Paris
@@ -16,7 +16,7 @@ abstract: ""
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
-date: "2030-06-01T13:00:00Z"
+date: "2018-04-11"
 # date_end: "2030-06-01T15:00:00Z"
 all_day: false
 
