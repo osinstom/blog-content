@@ -24,3 +24,5 @@ url_video: ""
 #   Otherwise, set `slides = ""`.
 slides: ""
 ---
+
+Implementacja protokołu XMPP dla otwartego sterownika SDN.
