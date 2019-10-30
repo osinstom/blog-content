@@ -1,7 +1,7 @@
 ---
 title: ONAP Change Management Dublin Extensions
 event: ONAP DDF + OPNFV Plugfest Jan '19
-event_url: https://wiki.onosproject.org/display/ONOS/XMPP+as+SBI
+event_url: https://wiki.onap.org/display/DW/Change+Management+Dublin+Extensions
 
 location: Nozay, Paris
 address:
