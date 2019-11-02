@@ -54,5 +54,5 @@ hero_media = ""
 
 **Do you want to use my skillset in your cool project?**
 
-**Do you want to work with me on some idea?**
+**Do you want to work with me on some innovation?**
 
