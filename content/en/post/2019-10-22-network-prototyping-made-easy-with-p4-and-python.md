@@ -4,12 +4,13 @@ title: Network prototyping made easy with P4 and Python!
 author: Tomasz Osiński
 tags:
   - SDN
-  - BMv2
   - NFV
+  - BMv2
   - ' Python'
   - Mininet
   - scapy
 date: '2018-12-24'
+draft: false
 ---
 ## Introduction ##
 
@@ -19,10 +20,9 @@ Have you ever tried to understand deeply mechanisms of network protocols? I mean
 
 I assume you know already what the Python language is, but what is P4? P4 stands for Programming Protocol-Independent Packet Processors. It has been developed as a next step in the evolution of Software-Defined Networking (SDN). As you may know, the classical telecommunications architecture can be divided into data plane, control plane and management plane. Data plane is the layer, where data packets are being processed and forwarded, while the control plane decides how these packets should be handled. **P4 has been designed to enable data plane programming.** Thus, using the P4 language you can specify what packet’s headers can be processed and what actions can be performed on packets. The data plane programming was the missing link in the software-based network systems, where control plane and management plane are programmable already. Currently, the structure of network system can be defined completely using software and its behaviour can be changed dynamically by updating the software version. It brings a lot of flexibility to the networking world!
 
-The main component of the P4 ecosystem is the P4 language. It is a high-level Domain-Specific Language (DSL) dedicated for programming of network devices. It allows to specify the format of packets (protocol’s headers) to be recognized by network devices and actions to be performed on incoming packets (forwarding, headers modification, adding protocol header, etc). Nevertheless, the P4 language is not consumed directly by the network device, but it must be compiled to the source code for particular platform. These platforms are hardware-based (e.g. Barefoot Tofino, [FPGA](https://p4.org/p4/p4-netfpga-a-low-cost-solution-for-testing-p4-programs-in-hardware.html)) or software-based (e.g. [BMv2](https://github.com/p4lang/behavioral-model), [eBPF/XDP](https://github.com/vmware/p4c-xdp) or [PISCES](http://pisces.cs.princeton.edu/)). The goal of P4 is to become the same what CUDA language became for graphics cards programming. The concept of the P4 language has been presented below.
+The main component of the P4 ecosystem is the P4 language. It is a high-level Domain-Specific Language (DSL) dedicated for programming of network devices. It allows to specify the format of packets (protocol’s headers) to be recognized by network devices and actions to be performed on incoming packets (forwarding, headers modification, adding protocol header, etc). Nevertheless, the P4 language is not consumed directly by the network device, but it must be compiled to the source code for particular platform. These platforms are hardware-based (e.g. [Barefoot Tofino ASIC](https://www.barefootnetworks.com/products/brief-tofino/), [FPGA](https://p4.org/p4/p4-netfpga-a-low-cost-solution-for-testing-p4-programs-in-hardware.html)) or software-based (e.g. [BMv2](https://github.com/p4lang/behavioral-model), [eBPF/XDP](https://github.com/vmware/p4c-xdp) or [PISCES](http://pisces.cs.princeton.edu/)). The goal of P4 is to become the same what CUDA language became for graphics cards programming. The concept of the P4 language has been presented below.
 
-![P4 program structure]({{site.baseurl}}/static/img/p4-program-structure.jpg)
-
+![P4 program structure](https://osinstom.github.io/img/p4-program-structure.jpg)
 
 The P4 program is composed of three main sections: Protocols defintion (data declaration), Parser Logic (Parser & Deparser) and a number of control blocks containing Match-Action tables. The first section defines the protocols headers that the network device will be able to recognize. For instance, defining IPv4 header is as simple as:
 
@@ -38,8 +38,8 @@ header ipv4_t {
     bit<8>    ttl;
     bit<8>    protocol;
     bit<16>   hdrChecksum;
-    bit<32> srcAddr;
-    bit<32> dstAddr;
+    bit<32>   srcAddr;
+    bit<32>   dstAddr;
 }
 ```
 
@@ -111,7 +111,7 @@ Ok, P4 gives the tool to program the data plane, but what about a control plane?
 
 From my expierence Scapy is a user-friendly library that can be used to implement a control plane applications or generate custom packets from host devices. More on Scapy library you can read [here](https://scapy.readthedocs.io/en/latest/introduction.html).
 
-The P4 language allows us to program data plane and Python is the recommended language to implement control plane of the prototyped network. Voila! Now, the question is how to emulate the real network at scale? The BMv2 switch, which is the reference P4 software switch, is well-integrated with [Mininet](http://mininet.org/). Thus, you can create a virtual network of any size on your local computer! I have used Mininet for almost four years to experiment with SDN and OpenFlow – it is a very powerful tool that make life of network researcher easier!
+The P4 language allows us to program data plane and Python is the recommended language to implement control plane of the prototyped network. Voila! Now, the question is how to emulate the real network at scale? The [BMv2](https://github.com/p4lang/behavioral-model) switch, which is the reference P4 software switch, is well-integrated with [Mininet](http://mininet.org/). Thus, you can create a virtual network of any size on your local computer! I have used Mininet for almost four years to experiment with SDN and OpenFlow – it is a very powerful tool that make life of network researcher easier!
 
 ## Summary
 
